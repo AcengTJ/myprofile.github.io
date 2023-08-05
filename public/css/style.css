@@ -13,7 +13,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(../../image/background.jpg);
+  background-image: url(/../../image/background.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -336,7 +336,7 @@ nav .fas {
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(../../image/background.jpg);
+    background-image: url(/../../image/background.jpg);
   }
 
   .header-text {
@@ -373,7 +373,7 @@ nav .fas {
 @media only screen and (max-width: 600px) {
   /* Adjust the header image and text size for small screens */
   #header {
-    background-image: url(../../image/background.jpg);
+    background-image: url(/../../image/background.jpg);
   }
 
   .header-text {
