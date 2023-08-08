@@ -23,17 +23,21 @@
         <nav>
           <h1 class="fw-bold text-dark">My Profile</h1>
           <ul>
-            <li><a href="#header" class="text-dark fw-semibold">Home</a></li>
-            <li><a href="#about" class="text-dark fw-semibold">About</a></li>
+            <li><a href="#header" class="fw-semibold">Home</a></li>
+            <li><a href="#about" class="fw-semibold">About</a></li>
             <li>
-              <a href="#portfolio" class="text-dark fw-semibold">Portfolio</a>
+              <a href="#portfolio" class="fw-semibold">Portfolio</a>
             </li>
             <li>
-              <a href="#contact" class="text-dark fw-semibold">Contact</a>
+              <a href="#contact" class="fw-semibold">Contact</a>
             </li>
-            <i class="fas fa-times text-dark"></i>
           </ul>
-          <i class="fas fa-bars text-dark"></i>
+          <div class="menu-toggle">
+            <input type="checkbox" onclick="navbarMenu()" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </nav>
         <div class="header-text text-end">
           <p>Information Systems Student</p>
@@ -123,7 +127,7 @@
                   <br />
                   University Widya Dharma Pontianak (Waiting for graduation)
                   <br />
-                  Grade : 3.74 / 4.00
+                  Grade : 3.72 / 4.00
                 </li>
               </ul>
             </div>
@@ -143,30 +147,6 @@
               <p>
                 Applications that can make vehicle rentals effectively and
                 efficiently. This application had e-payment and e-wallet
-              </p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work-2.png" alt="" />
-            <div class="layer">
-              <h2>Music App</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea
-                nihil sint. Velit.
-              </p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work-3.png" alt="" />
-            <div class="layer">
-              <h2>Online Shopping App</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea
-                nihil sint. Velit.
               </p>
               <a href="#"><i class="fas fa-external-link-alt"></i></a>
             </div>
@@ -199,7 +179,7 @@
               >Download Resume</a
             >
           </div>
-          <div class="contact-right">
+          <!-- <div class="contact-right">
             <form>
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
@@ -215,7 +195,7 @@
               ></textarea>
               <button type="submit" class="btn btn3">submit</button>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="copyright">

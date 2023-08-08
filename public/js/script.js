@@ -20,3 +20,10 @@ document.querySelector(".fas.fa-bars").addEventListener("click", function () {
 document.querySelector(".fas.fa-times").addEventListener("click", function () {
   document.querySelector("nav ul").classList.remove("show");
 });
+
+function navbarMenu() {
+  const menuToggle = document.querySelector(".menu-toggle input");
+  const nav = document.querySelector("nav ul");
+
+  nav.classList.toggle("slide");
+}
