@@ -292,7 +292,7 @@ width: 100%;
 
 /* ----------CONTACT---------- */
 .contact-left {
-  flex-basis: 100%;
+  flex-basis: 50%;
 }
 
 .contact-left p {
