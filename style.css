@@ -276,14 +276,14 @@ width: 100%;
 
 .btn {
   display: block;
-  margin: 50px auto;
-  width: fit-content;
-  border: 1px solid #ff004f;
-  padding: 14px 50px;
-  border-radius: 6px;
-  color: #fff;
-  text-decoration: none;
-  transition: background 0.75s;
+  margin: 50px auto !important;
+  width: fit-content !important;
+  border: 1px solid #ff004f !important;
+  padding: 14px 50px !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: background 0.75s !important;
 }
 
 .btn:hover {
@@ -292,7 +292,7 @@ width: 100%;
 
 /* ----------CONTACT---------- */
 .contact-left {
-  flex-basis: 50%;
+  flex-basis: 1%;
 }
 
 .contact-left p {
@@ -327,7 +327,8 @@ width: 100%;
   display: inline-block;
 }
 
-.btn.btn3 {
+.btn.btn3,
+.btn.btn-loading {
   background: #080808;
   margin-top: 30px;
   transition: background 0.5;
