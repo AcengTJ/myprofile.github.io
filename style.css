@@ -326,7 +326,7 @@ width: 100%;
 .btn.btn2 {
   display: inline-block;
 }
-/* 
+
 .btn.btn3 {
   background: #080808;
   margin-top: 30px;
@@ -339,7 +339,7 @@ width: 100%;
 
 .contact-right form {
   width: 100%;
-} */
+}
 
 form input,
 form textarea {
