@@ -22,6 +22,9 @@ body {
 .container {
   padding: 10px 10%;
 }
+nav h1 {
+  color: #080808;
+}
 
 nav {
   display: flex;
@@ -376,7 +379,7 @@ form textarea {
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(/../../image/background.jpg);
+    background-image: url(/image/background.jpg);
   }
 
   .header-text {
@@ -391,7 +394,9 @@ form textarea {
   a {
     color: white !important;
   }
-
+  nav h1 {
+    color: #fff;
+  }
   nav ul {
     display: flex;
     position: absolute;
@@ -417,13 +422,17 @@ form textarea {
   .menu-toggle {
     display: flex;
   }
+
+  .menu-toggle span {
+    background-color: #fff;
+  }
 }
 
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
   /* Adjust the header image and text size for small screens */
   #header {
-    background-image: url(/../../image/background.jpg);
+    background-image: url(/image/background.jpg);
   }
 
   .header-text {
@@ -464,5 +473,9 @@ form textarea {
 
   .menu-toggle {
     display: flex;
+  }
+
+  .menu-toggle span {
+    background-color: #fff;
   }
 }
